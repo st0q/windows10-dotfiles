@@ -47,6 +47,6 @@ Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer 
 Write-Host "エクスプローラーを再起動します"
 Stop-Process -Name Explorer -Force
 
-Write-Host ""
-Write-Host "... Setting is complete"
-Write-Host ""
+# Write-Host ""
+# Write-Host "... Setting is complete"
+# Write-Host ""
