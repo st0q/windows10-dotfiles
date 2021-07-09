@@ -32,11 +32,11 @@ Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer 
 # Pin a folder to quick access
 # https://cloud6.net/so/powershell/284167
 # https://www.vwnet.jp/Windows/w10/2017020201/Pin2QuickAccess.htm
-Write-Host "クイックアクセス: ホームディレクトリをピン留めしました"
-$shell = New-Object -ComObject "Shell.Application"
-$folder = $shell.Namespace("C:\Users\snyt45")
-$verb = $folder.self.Verbs() | ? {$_.Name -match "^クイック アクセスに.+ピン留め"}
-if ($verb) {$verb.DoIt()}
+# Write-Host "クイックアクセス: ホームディレクトリをピン留めしました"
+# $shell = New-Object -ComObject "Shell.Application"
+# $folder = $shell.Namespace("C:\Users\snyt45")
+# $verb = $folder.self.Verbs() | ? {$_.Name -match "^クイック アクセスに.+ピン留め"}
+# if ($verb) {$verb.DoIt()}
 
 # MicrosoftIME: Use previous version: Enabled
 # Write-Host "MicrosoftIME: 以前のバージョン: 有効"
