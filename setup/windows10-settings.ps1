@@ -1,4 +1,4 @@
-Write-Host "Windows Settings"
+﻿Write-Host "Windows Settings"
 Write-Host "=============================="
 
 # Defender: Windows Filrewall: Enabled

@@ -1,4 +1,4 @@
-Write-Host "Install Development Tools"
+﻿Write-Host "Install Development Tools"
 Write-Host "=============================="
 
 try {
